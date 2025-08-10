@@ -28,7 +28,10 @@ class Bioenergia(Model):
         api_key="patZ3kb1eB1w02mEm.41c741e34acc12fe60f3181c19707ce6defbfe5b1cad78356138b94dd8eb31c6"
         base_id="appsHAOsh2bvzhdfM"
         table_name="bioenergia"
-
+    
+#Inicio de la aplicación 
+if __name__=="__main__":
+    ft.app(target=main,view=ft.AppView.WEB_BROWSER)
 
 #cacao=Bioenergia(cultivo="cacao",parte="tallo",cantidad=20.2,area=12.5,energia=45.6,municipio="Coatzacalcos",latitud=18.578963,longitud=80.478963)
 
@@ -49,4 +52,5 @@ class Bioenergia(Model):
 #registros=tabla.all()
 #for r in registros:
   #  print (r["fields"])
+
 
